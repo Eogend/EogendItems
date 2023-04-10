@@ -1,0 +1,98 @@
+amulette_manatique:
+  material: DIAMOND
+  type: basic
+  showEnchants: false
+  durabilityEnabled: false
+  durability: 1
+  displayName: "&7Amulette Manatique"
+  lore:
+    - "Cette amulette ajoute 20 de mana"
+    - "lorsqu'elle est portée"
+  enchantments:
+  nbt:
+    eogend: "amulette_manatique"
+
+
+boussole_vorace:
+  material: COMPASS
+  type: basic
+  showEnchants: false
+  durabilityEnabled: false
+  durability: 1
+  displayName: "&7Boussole Vorace"
+  lore:
+    - "Une boussole étrange..."
+    - "Attention à vos doigts."
+  enchantments:
+  nbt:
+    eogend: "boussole_vorace"
+
+
+marteau_magique:
+  material: IRON_AXE
+  type: basic
+  showEnchants: false
+  durabilityEnabled: false
+  durability: 1
+  displayName: "&7Marteau Magique"
+  lore:
+    - "Un marteau aux propriétés magiques"
+  enchantments:
+  nbt:
+    eogend: "marteau_magique"
+
+
+piece_or:
+  material: NAUTILUS_SHELL
+  type: basic
+  showEnchants: false
+  durabilityEnabled: false
+  durability: 1
+  displayName: "&7Pièce d'Or"
+  lore: []
+  enchantments:
+  nbt:
+    eogend: "or"
+
+
+piece_argent:
+  material: NAUTILUS_SHELL
+  type: basic
+  showEnchants: false
+  durabilityEnabled: false
+  durability: 1
+  displayName: "&7Pièce d'Argent"
+  lore: []
+  enchantments:
+  nbt:
+    eogend: "argent"
+
+
+piece_cuivre:
+  material: NAUTILUS_SHELL
+  type: basic
+  showEnchants: false
+  durabilityEnabled: false
+  durability: 1
+  displayName: "&7Pièce de Cuivre"
+  lore: []
+  enchantments:
+  nbt:
+    eogend: "cuivre"
+
+
+baton_bulle:
+  material: STICK
+  type: particle_maker
+  showEnchants: false
+  durabilityEnabled: false
+  durability: 1
+  displayName: "&7Baton bulle"
+  lore:
+    - "Objet mystique créant... des bulles"
+  enchantments:
+  nbt:
+    eogend: "baton_bulle"
+  particle-data:
+    type: BUBBLE_COLUMN_UP
+    speed: 1

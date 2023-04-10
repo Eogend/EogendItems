@@ -1,0 +1,37 @@
+name: EogendItems
+version: 1.0.1
+author: LavaPower
+main: fr.lavapower.eogenditems.EogendItems
+api-version: 1.19
+prefix: EogendItems
+
+commands:
+  giveitem:
+    usage: /<command> <item> <number>
+    aliases:
+      - givei
+    description: Give un item précis
+    permission: Items.GiveItem
+
+  reloaditems:
+    usage: /<command>
+    aliases:
+      - reloadi
+    description: Reload les items du plugin
+    permission: Items.ReloadItems
+
+permissions:
+  Items.*:
+    default: op
+    description: Permission pour toutes les commandes d'Items
+    children:
+      Items.GiveItem: true
+      Items.ReloadItems: true
+
+  Items.GiveItem:
+    default: op
+    description: Permission pour la commande GiveItem
+
+  Items.ReloadItems:
+    default: op
+    description: Permission pour la commande ReloadItems
